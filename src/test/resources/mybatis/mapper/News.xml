@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pisien.springbatch.dao.INewsDAO">
+
+    <select id="listNews" resultType="com.pisien.springbatch.entity.NewsEntity">
+        select title
+             , journalist
+             , publisher
+             , reg_dt
+          from news
+    </select>
+
+    <insert id="userAdd">
+        INSERT user (name, part) VALUES (#{name}, #{part})
+    </insert>
+
+</mapper>

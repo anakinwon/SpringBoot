@@ -1,0 +1,86 @@
+spring:
+  config:
+    active:
+      on-profile: mysql
+
+---
+spring:
+  config:
+    active:
+      on-profile: mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springbatch?useUnicode=true&characterEncoding=utf8
+    username: spring
+    password: 1111
+  batch:
+    jdbc:
+      initialize-schema: never   #always/embedded/never
+    job:
+      name: ${job.name:NONE}
+      enabled: false
+
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mapping: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    generate-ddl: false
+    show-sql: true
+
+
+
+---
+#spring:
+#  config:
+#    active:
+#      on-profile: oracle
+#  datasource:
+#    hikari:
+#      driver-class-name: oracle.jdbc.driver.OracleDriver
+#      url: jdbc:oracle:thin:@localhost:1521/orcl
+#      username: dev
+#      password: 1111
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    generate-ddl: false
+#    show-sql: true
+##    database: oracle
+##    database-platform: org.hibernate.dialect.Oracle12cDialect
+#  batch:
+#    job:
+#      enabled: true
+
+---
+
+#---
+#spring:
+#  config:
+#    active:
+#      on-profile: local
+#  datasource:
+#    hikari:
+#      jdbc-url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+#      username: sa
+#      password:
+#      driver-class-name: com.h2.Driver
+
+---
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+#    org.springframework: debug
+#    org.springframework.web: debug
+#    com.pisien: info
+
+# mybatis 설정
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/**/**.xml
+

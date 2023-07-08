@@ -1,0 +1,7 @@
+1|Anakin|28
+2|Padme|32
+3|Asoka|18
+4|Obiwan|52
+5|Yoda|232
+6|Duke|67
+7|Grivers|54

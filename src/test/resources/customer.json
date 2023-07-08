@@ -1,0 +1,34 @@
+[
+  { "year" : 2001,
+    "name" : "anakin",
+    "age" : 23
+  },
+  { "year" : 2002,
+    "name" :"padme",
+    "age" : 26
+  },
+  { "year" : 2003,
+    "name" : "yoda",
+    "age" : 223
+  },
+  { "year" : 2004,
+    "name" : "obiwan",
+    "age" : 120
+  },
+  { "year" : 2005,
+    "name" : "duke",
+    "age" : 145
+  },
+  { "year" : 2006,
+    "name" : "grives",
+    "age" : 200
+  },
+  { "year" : 2007,
+    "name" : "pelpertine",
+    "age" : 78
+  },
+  { "year" : 2008,
+    "name" : "asoka",
+    "age" : 17
+  }
+]

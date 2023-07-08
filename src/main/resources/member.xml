@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<members>
+    <member>
+        <username>3000001</username>
+        <password>anakin</password>
+    </member>
+    <member>
+        <username>3000002</username>
+        <password>padme</password>
+    </member>
+    <member>
+        <username>3000003</username>
+        <password>asoka</password>
+    </member>
+    <member>
+        <username>3000004</username>
+        <password>obiwan</password>
+    </member>
+</members>

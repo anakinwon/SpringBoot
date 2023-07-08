@@ -1,0 +1,11 @@
+name,year,age
+anakin 2001 32
+padme  2002 23
+yoda   2003238
+obiwan 2004143
+asoka  2005 18
+duke   2006154
+grivese2007123
+clone1 2008 33
+clone2 2009 33
+clone3 2010 33

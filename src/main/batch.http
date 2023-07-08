@@ -1,0 +1,16 @@
+### Send POST request with json body
+POST http://localhost:8080/batch/start
+Context-Type: application/json
+{
+    "id": "anakin"
+}
+
+### Send POST request with json body
+POST http://localhost:8080/batch/stop
+Context-Type: application/json
+
+### Send POST request with json body
+POST http://localhost:8080/batch/restart
+Context-Type: application/json
+
+

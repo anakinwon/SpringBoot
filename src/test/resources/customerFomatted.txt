@@ -1,0 +1,7 @@
+11 Anakin2   28 
+12 Padme2    32 
+13 Asoka2    18 
+14 Obiwan2   52 
+15 Yoda2     232
+16 Duke2     67 
+17 Grivers2  54 
